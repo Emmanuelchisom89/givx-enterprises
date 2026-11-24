@@ -77,7 +77,7 @@ export default function Navbar() {
 
           <Link
             href="/contact"
-            className="hidden items-center gap-3 hover:bg-[#171717] px-5 py-3 text-[11.5px] font-medium tracking-wide text-white transition-colors duration-300 bg-[#A18A69] lg:inline-flex"
+            className="hidden items-center gap-3 hover:bg-[#171717] px-5 py-3 text-[11.5px] font-medium tracking-wide !text-white transition-colors duration-300 bg-[#A18A69] lg:inline-flex"
           >
             Let's Talk
             <ArrowUpRight size={14} strokeWidth={1.7} />
@@ -140,7 +140,7 @@ export default function Navbar() {
               <Link
                 href="/contact"
                 onClick={closeMenu}
-                className="mt-6 flex items-center justify-center gap-3 bg-[#171717] px-5 py-4 text-xs font-medium text-white"
+                className="mt-6 flex items-center justify-center gap-3 bg-[#A18A69] px-5 py-4 text-xs font-medium !text-white"
               >
                 Start a Conversation
                 <ArrowUpRight size={15} />

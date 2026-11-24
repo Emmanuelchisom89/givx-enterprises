@@ -70,7 +70,7 @@ export default function OurPhilosophyPage() {
   return (
     <main className="overflow-hidden bg-[#F5F2EC] text-[#171717]">
       {/* Opening */}
-      <section className="relative min-h-[78vh] border-b border-[#171717]/15 px-6 pb-16 pt-32 md:min-h-[85vh] md:px-12 md:pb-20">
+      <section className="relative min-h-[78vh] border-b border-[#171717]/15 px-6 pb-16 pt-28 md:min-h-[85vh] md:px-10 md:pb-20">
         <div className="container-shell flex min-h-[58vh] flex-col justify-between">
           <Reveal>
             <div className="flex items-center justify-between">
@@ -85,7 +85,7 @@ export default function OurPhilosophyPage() {
 
           <div className="grid items-end gap-10 lg:grid-cols-[1.3fr_0.7fr]">
             <Reveal delay={0.1}>
-              <h1 className="max-w-5xl text-[clamp(3.8rem,9vw,8.5rem)] leading-[0.88] tracking-[-0.065em]">
+              <h1 className="max-w-6xl text-[clamp(3.2rem,8vw,7.5rem)] leading-[0.88] tracking-[-0.065em]">
                 How we
                 <br />
                 <span className="font-display italic text-[#A18A69]">
