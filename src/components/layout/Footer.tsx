@@ -93,9 +93,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col gap-4 border-t border-white/10 py-7 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {new Date().getFullYear()} Givx Enterprises. All rights reserved.
-          </p>
+          <p>© 2026 Givx Enterprises. All rights reserved.</p>
 
           <p>Building with purpose. Growing with intention.</p>
         </div>
