@@ -585,9 +585,11 @@ export default function AboutPage() {
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 hover:scale-[1.04]"
                 style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85')",
+                  backgroundImage: "url('/abg.png')",
                 }}
+                //   backgroundImage:
+                //     "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85')",
+                // }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
 
@@ -684,9 +686,12 @@ export default function AboutPage() {
             <Reveal className="relative min-h-[360px] lg:min-h-[590px]">
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 hover:scale-[1.04]"
+                // style={{
+                //   backgroundImage:
+                //     "url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1400&q=85')",
+                // }}
                 style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1400&q=85')",
+                  backgroundImage: "url('/abg.png')",
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />

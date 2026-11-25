@@ -543,8 +543,9 @@ const businesses = [
     category: "Fragrance & Skincare",
     description:
       "Our beauty and personal care brand, offering fragrance and skincare products for people who value personal care and everyday self-expression.",
-    image:
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1200&q=85",
+    image: "/abg.png",
+    // image:
+    //   "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1200&q=85",
     href: "/businesses/aura-by-givx",
   },
 ];
@@ -660,9 +661,9 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="mt-9 max-w-xl text-base leading-8 text-white/70 md:text-lg"
             >
-              Givx Enterprises is a Nigerian business organization currently
-              operating in the beauty and personal care market through its
-              brands with a vision to expand into other business areas.
+              A registered business organization currently operating in the
+              beauty and personal care market through its brands with a vision
+              to expand into other business areas.
             </motion.p>
 
             <motion.div
@@ -716,9 +717,7 @@ export default function HomePage() {
         <div className="container-shell">
           <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
             <Reveal>
-              <span className="section-eyebrow">
-                01 / About the organization
-              </span>
+              <span className="section-eyebrow">01 / Welcome to GIVX</span>
 
               <h2 className="mt-7 max-w-md text-5xl leading-[1.05] tracking-[-0.045em] text-[#171717] md:text-6xl">
                 One organization.

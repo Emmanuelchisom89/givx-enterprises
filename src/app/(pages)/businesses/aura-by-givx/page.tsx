@@ -154,7 +154,7 @@ export default function AuraProfilePage() {
                 </p>
 
                 <p>
-                  As part of the Givx portfolio, Aura represents the
+                  As part of the Givx portfolio, Aura By Givx represents the
                   organization's current focus in the beauty and personal care
                   market.
                 </p>
@@ -368,7 +368,7 @@ export default function AuraProfilePage() {
                 href="https://aurabygivx.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group mt-9 inline-flex items-center gap-3 bg-[#29231F] px-7 py-4 text-sm text-white transition-colors duration-300 hover:bg-[#A18A69]"
+                className="group mt-9 inline-flex items-center gap-3 hover:bg-[#29231F] px-7 py-4 text-sm !text-white transition-colors duration-300 bg-[#A18A69]"
               >
                 Visit the Aura store
                 <MoveUpRight
