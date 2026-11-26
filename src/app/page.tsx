@@ -617,15 +617,16 @@ export default function HomePage() {
           <div
             className="absolute inset-0 bg-cover bg-center opacity-45"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=90')",
+              backgroundImage: "url('/homehero.jpeg')",
+              // backgroundImage:
+              //   "url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2200&q=90')",
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#171717] via-[#171717]/85 to-[#171717]/25" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#171717]/60 via-transparent to-[#171717]/20" />
         </div>
 
-        <div className="container-shell relative z-10 pb-20 pt-30 lg:pb-28">
+        <div className="container-shell relative z-10 pb-20 pt-20 lg:pt-26 lg:pb-24">
           <div className="max-w-5xl">
             <motion.div
               initial={shouldReduceMotion ? false : { opacity: 0, y: 18 }}
@@ -698,7 +699,7 @@ export default function HomePage() {
 
           <div className="mt-24 flex items-end justify-between border-t border-white/20 pt-6">
             <span className="text-[10px] uppercase tracking-[0.2em] text-white/50">
-              An independent Nigerian business
+              An independent business
             </span>
 
             <a
@@ -711,6 +712,54 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* INTRODUCTION
+      <section id="introduction" className="section-spacing bg-[#f5f2ec]">
+        <div className="container-shell">
+          <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
+            <Reveal>
+              <span className="section-eyebrow">01 / Welcome to GIVX</span>
+
+              <h2 className="mt-7 max-w-md text-5xl leading-[1.05] tracking-[-0.045em] text-[#171717] md:text-6xl">
+                One organization.
+                <br />
+                <span className="italic text-[#a18a69]">
+                  Growing possibilities.
+                </span>
+              </h2>
+            </Reveal>
+
+            <Reveal delay={0.15}>
+              <div className="max-w-2xl pt-2 lg:pt-12">
+                <p className="text-xl leading-[1.7] text-[#33312e] md:text-2xl">
+                  Givx Enterprises is the business organization behind a growing
+                  range of commercial interests, with its current focus on
+                  fragrance and skincare.
+                </p>
+
+                <p className="mt-7 text-sm leading-8 text-[#77736d] md:text-base">
+                  Through Aura by GIVX, we serve the beauty and personal care
+                  market with products centred on fragrance and skincare. Beyond
+                  our present activities, Givx Enterprises is positioned to
+                  explore additional products, markets and business
+                  opportunities as the organization develops.
+                </p>
+
+                <Link
+                  href="/about"
+                  className="group mt-9 inline-flex items-center gap-4 border-b border-[#a18a69] pb-3 text-xs font-semibold uppercase tracking-[0.16em] text-[#171717]"
+                >
+                  Learn about the organization
+                  <ArrowUpRight
+                    size={16}
+                    className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
+                  />
+                </Link>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section> */}
 
       {/* INTRODUCTION */}
       <section id="introduction" className="section-spacing bg-[#f5f2ec]">
@@ -726,6 +775,15 @@ export default function HomePage() {
                   Growing possibilities.
                 </span>
               </h2>
+
+              {/* INTRODUCTION IMAGE */}
+              <div className="mt-9 overflow-hidden">
+                <img
+                  src="/homehero.jpeg"
+                  alt="Minimalist architectural stone forms in warm natural light"
+                  className="aspect-[5/4] w-full object-cover"
+                />
+              </div>
             </Reveal>
 
             <Reveal delay={0.15}>

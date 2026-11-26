@@ -344,8 +344,8 @@ import {
   Phone,
   Send,
   Clock3,
-  MessageCircle,
 } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const WHATSAPP_NUMBER = "2348000000000"; // Replace with the actual WhatsApp number
 
@@ -454,7 +454,7 @@ export default function ContactPage() {
           >
             <div className="flex items-center gap-5">
               <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-[#A18A69]/40 text-[#171717]">
-                <MessageCircle size={25} strokeWidth={1.5} />
+                <FaWhatsapp size={30} strokeWidth={1.5} />
               </div>
 
               <div>
